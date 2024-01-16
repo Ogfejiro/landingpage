@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
+  }
+  
+  .rotate-continuous {
+    animation: rotate 1s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  /* styles.css */
+
+.custom-overflow {
+    overflow: hidden;
+  }
+
+  .pop-up {
+    transition: transform 0.3s ease-in-out;
+
+ 
+  }
+
+  .pop-up:hover {
+    transform: scale(1.1);
+    background-color:white;
+    color:black;
+  }
+  
